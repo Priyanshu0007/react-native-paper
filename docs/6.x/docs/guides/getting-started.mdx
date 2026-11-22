@@ -47,6 +47,12 @@ Follow the [React Native Reanimated installation guide](https://docs.swmansion.c
 
 If you have a `babel.config.js` or `.babelrc` file, make sure that it includes `babel-preset-expo`.
 
+`BottomSheet` is built on [React Native Bottom Sheet](https://docs.swmansion.com/react-native-bottom-sheet/), an optional dependency that needs React Native 0.82 or later. Install it only if you use `BottomSheet`, then rebuild the native app, because it includes native code:
+
+```bash
+npx expo install @swmansion/react-native-bottom-sheet
+```
+
   </TabItem>
   <TabItem value="community-cli" label="Community CLI">
 
@@ -74,6 +80,12 @@ npm install @react-native-vector-icons/material-design-icons
 :::note
 `@react-native-vector-icons/material-design-icons` may require some additional setup steps depending on platform. To ensure the icon font is configured correctly, please follow the upstream [installation guide](https://github.com/oblador/react-native-vector-icons?tab=readme-ov-file#setup).
 :::
+
+`BottomSheet` is built on [React Native Bottom Sheet](https://docs.swmansion.com/react-native-bottom-sheet/), an optional dependency that needs React Native 0.82 or later. Install it only if you use `BottomSheet`:
+
+```bash npm2yarn
+npm install @swmansion/react-native-bottom-sheet
+```
 
 On iOS, install the pods after adding these packages:
 

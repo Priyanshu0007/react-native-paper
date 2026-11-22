@@ -50,6 +50,9 @@ const pages = {
     BottomNavigation: 'BottomNavigation/BottomNavigation',
     BottomNavigationBar: 'BottomNavigation/BottomNavigationBar',
   },
+  BottomSheet: {
+    BottomSheet: 'BottomSheet/BottomSheet',
+  },
   Button: {
     Button: 'Button/Button',
   },

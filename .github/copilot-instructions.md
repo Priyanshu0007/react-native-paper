@@ -15,6 +15,7 @@
 ## Dependencies
 
 - For dependencies added for individual components, evaluate bundle size and platform impact. Prefer existing capabilities when they meet the requirements.
+- A package with native code that only one component needs, such as `@swmansion/react-native-bottom-sheet` for `BottomSheet`, is an optional peer dependency (`peerDependenciesMeta`), also listed in `devDependencies` and in the example app. Require it lazily inside `try`, throw an error that explains how to install it when it is missing, and keep its types out of the public API. Document the installation in the getting started guide.
 
 ## Validation
 

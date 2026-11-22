@@ -68,6 +68,7 @@
     "@react-native/jest-preset": "^0.88.1",
     "@react-navigation/native": "^8.0.0-alpha.51",
     "@release-it/conventional-changelog": "^1.1.0",
+    "@swmansion/react-native-bottom-sheet": "^1.1.0",
     "@testing-library/react-native": "^14.0.0",
     "@types/color": "^3.0.0",
     "@types/node": "^24.0.0",
@@ -95,11 +96,17 @@
     "typescript-eslint": "^8.61.1"
   },
   "peerDependencies": {
+    "@swmansion/react-native-bottom-sheet": ">=1.1.0",
     "react": "*",
     "react-native": "*",
     "react-native-reanimated": ">=4.3.0",
     "react-native-safe-area-context": "*",
     "react-native-worklets": ">=0.8.1"
+  },
+  "peerDependenciesMeta": {
+    "@swmansion/react-native-bottom-sheet": {
+      "optional": true
+    }
   },
   "resolutions": {
     "ast-types": "0.16.1"
@@ -129,7 +136,7 @@
       "__fixtures__\\/[^/]+\\/(output|error)\\.js"
     ],
     "transformIgnorePatterns": [
-      "node_modules/(?!(@react-native|react-native|@react-navigation|react-native-reanimated|react-native-worklets|react-native-safe-area-context|nanoid|query-string|decode-uri-component|filter-obj|split-on-first|escape-string-regexp)/)"
+      "node_modules/(?!(@react-native|@swmansion/react-native-bottom-sheet|react-native|@react-navigation|react-native-reanimated|react-native-worklets|react-native-safe-area-context|nanoid|query-string|decode-uri-component|filter-obj|split-on-first|escape-string-regexp)/)"
     ]
   },
   "greenkeeper": {

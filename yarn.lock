@@ -5059,6 +5059,23 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@swmansion/react-native-bottom-sheet@npm:^1.1.0":
+  version: 1.1.0
+  resolution: "@swmansion/react-native-bottom-sheet@npm:1.1.0"
+  peerDependencies:
+    react: ">=19.1.1"
+    react-dom: ">=19.1.1"
+    react-native: ">=0.82.0"
+    react-native-web: ">=0.21.0"
+  peerDependenciesMeta:
+    react-dom:
+      optional: true
+    react-native-web:
+      optional: true
+  checksum: 10c0/06a78b14c78a5486e5639fbf6aea77eae5802e6710d6242a221dfcc1d572a751c35aa7fb9c86f83c0a3c2a22caa2c915e6de319373f34377c59feef293dafa05
+  languageName: node
+  linkType: hard
+
 "@szmarczak/http-timer@npm:^1.1.2":
   version: 1.1.2
   resolution: "@szmarczak/http-timer@npm:1.1.2"
@@ -18114,6 +18131,7 @@ __metadata:
     "@react-navigation/elements": "npm:3.0.0-alpha.55"
     "@react-navigation/native": "npm:^8.0.0-alpha.51"
     "@react-navigation/native-stack": "npm:^8.0.0-alpha.59"
+    "@swmansion/react-native-bottom-sheet": "npm:^1.1.0"
     babel-preset-expo: "npm:~58.0.24"
     expo: "npm:~58.0.23"
     expo-constants: "npm:~58.0.15"
@@ -18157,6 +18175,7 @@ __metadata:
     "@react-native/jest-preset": "npm:^0.88.1"
     "@react-navigation/native": "npm:^8.0.0-alpha.51"
     "@release-it/conventional-changelog": "npm:^1.1.0"
+    "@swmansion/react-native-bottom-sheet": "npm:^1.1.0"
     "@testing-library/react-native": "npm:^14.0.0"
     "@types/color": "npm:^3.0.0"
     "@types/node": "npm:^24.0.0"
@@ -18186,11 +18205,15 @@ __metadata:
     typescript-eslint: "npm:^8.61.1"
     use-latest-callback: "npm:^0.2.3"
   peerDependencies:
+    "@swmansion/react-native-bottom-sheet": ">=1.1.0"
     react: "*"
     react-native: "*"
     react-native-reanimated: ">=4.3.0"
     react-native-safe-area-context: "*"
     react-native-worklets: ">=0.8.1"
+  peerDependenciesMeta:
+    "@swmansion/react-native-bottom-sheet":
+      optional: true
   languageName: unknown
   linkType: soft
 

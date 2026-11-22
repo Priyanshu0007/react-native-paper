@@ -11,6 +11,7 @@ import BadgeExample from './Examples/BadgeExample';
 import BannerExample from './Examples/BannerExample';
 import BottomNavigationBarExample from './Examples/BottomNavigationBarExample';
 import BottomNavigationExample from './Examples/BottomNavigationExample';
+import BottomSheetExample from './Examples/BottomSheetExample';
 import ButtonExample from './Examples/ButtonExample';
 import CardExample from './Examples/CardExample';
 import CheckboxExample from './Examples/CheckboxExample';
@@ -55,6 +56,7 @@ export const mainExamples = {
   Banner: BannerExample,
   BottomNavigationBarExample,
   BottomNavigation: BottomNavigationExample,
+  BottomSheet: BottomSheetExample,
   Button: ButtonExample,
   Card: CardExample,
   Checkbox: CheckboxExample,

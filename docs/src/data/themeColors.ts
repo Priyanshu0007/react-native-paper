@@ -45,6 +45,13 @@ export const themeColors = {
       textColor: 'theme.colors.onError',
     },
   },
+  BottomSheet: {
+    '-': {
+      backgroundColor: 'theme.colors.surfaceContainerLow',
+      dragHandleColor: 'theme.colors.onSurfaceVariant',
+      scrimColor: 'theme.colors.scrim',
+    },
+  },
   Button: {
     default: {
       filled: {
